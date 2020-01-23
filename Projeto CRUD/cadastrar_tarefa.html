@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Estudo - SETI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <form action="includes/adiciona_tarefa.php" method="post" style="text-align: center; margin-top: 50px;">
+        Título: <input type="text" name="titulo"><br><br>
+        Descrição: <input type="text" name="descricao"><br><br>
+        Status: <select name="status" id="">
+            <option>A fazer</option>
+            <option>Em progresso</option>
+            <option>Pausado</option>
+            <option>Completo</option>
+        </select>
+        <br><br>
+        <button type="submit" name="signup-tarefa" class="btn btn-primary">Cadastrar</button>
+    </form>
+
+</body>
+
+</html>
